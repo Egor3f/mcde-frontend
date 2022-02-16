@@ -1,0 +1,19 @@
+{
+  "name": "trading-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build && bash onEnd.sh"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3"
+  }
+}
